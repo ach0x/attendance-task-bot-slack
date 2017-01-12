@@ -1,0 +1,39 @@
+{
+  "name": "Attendance-BOT",
+  "version": "1.0.0",
+  "description": "Attendance management using slack",
+  "author": "Ridham Tarpara(ridham.tarpara@gmail.com)",
+  "homepage": "",
+  "keywords": [
+    "attendance",
+    "bot"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@slack/client": "^3.7.0",
+    "botkit": "^0.4.3",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.8.0",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.2",
+    "moment": "^2.17.1",
+    "mongoose": "^4.7.4",
+    "path": "^0.12.7",
+    "slack": "^8.1.2",
+    "slackbots": "^0.5.3",
+    "sqlite3": "^3.1.8",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}
