@@ -23,6 +23,7 @@ bot.started((payload) => {
 	const payloadUsers = payload.users;
 	payloadUsers.forEach((user) => {
 		if (!user.is_bot && user.name !== 'slackbot') {
+			console.log(user);
 			const dbUser = new UserMdl(user);
 			users.push(dbUser);
 			UserMdl.update({ id: user.id }, user, { upsert: true, setDefaultsOnInsert: true }, (err, result) => {
